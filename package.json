@@ -1,0 +1,21 @@
+{
+  "name": "study-group-finder-backend",
+  "version": "1.0.0",
+  "description": "RESTful API for the Student Study Group Finder ",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "seed": "node --env-file=.env src/config/seed.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  }
+}
